@@ -42,7 +42,7 @@ p {
     margin: 0;
     color: #999;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.8;
 }
 ul, li {
@@ -246,7 +246,7 @@ li > a:only-child:after { content: ''; }
 		width: 25%;
 		padding: 5px;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 17px;
 		letter-spacing: 1px;
 	}
 
@@ -355,7 +355,7 @@ li > a:only-child:after { content: ''; }
     letter-spacing: 3px;
 }
 .banner-main h6 {
-    font-size: 16px;
+    font-size: 17px;
     color: #cecece;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -422,7 +422,7 @@ p.iner {
     margin-top: -28px;
 }
 .our-services-icon span.fa {
-    margin-left: 141px;
+    margin-left: 426px;
     color: #445c6e;
     font-size: 30px;
     background: #fff;
@@ -445,7 +445,7 @@ p.iner {
 }
 .our-services-text h4 {
     color: #222222;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 8px;
@@ -453,11 +453,11 @@ p.iner {
     position: relative;
     text-transform: uppercase;
 }
-.our-services-text h4::before {
+.our-services-text h4::before {	
     background: #445c6e none repeat scroll 0 0;
     bottom: 0px;
     content: "";
-    height: 1px;
+    
     position: absolute;
     width: 90px;
     margin-left: 58px;
@@ -471,7 +471,7 @@ p.iner {
     margin-bottom: 0;
 }
 .services p {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 26px;
     color: #666;
@@ -633,7 +633,7 @@ section#contact{
 }
 .agileinfo_mail_grids {
     background: rgba(255, 255, 255, 0.21);
-    padding: 2em 1em;
+    padding: 2em 10em;
     border-radius: 5px;
 	border-radius: 4px;
     -webkit-border-radius: 4px;
