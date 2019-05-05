@@ -76,7 +76,7 @@ a.move-top span {
     background: rgba(255, 255, 255, 0);
     border-radius: 50%;
     height: 35px;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     line-height: 1.9em;
 }
 /* CSS Document */
@@ -96,6 +96,13 @@ header {
     z-index: 9;
     position: absolute;
     width: 100%;
+}
+
+.rightdecoration {
+    right: 0px;
+    bottom: 0px;
+    height: 69%;
+    position: absolute;
 }
 
 #logo a {
@@ -350,7 +357,7 @@ li > a:only-child:after { content: ''; }
 .banner-sub {
     color: #fff;
     font-size: 40px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     font-weight: 700;
     letter-spacing: 3px;
 }
@@ -395,7 +402,7 @@ span.line {
 .about-left h2 {
     text-align: center;
     line-height: 1.6;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     font-size: 35px;
     color: #445c6e;
     font-weight: 700;
@@ -633,7 +640,7 @@ section#contact{
 }
 .agileinfo_mail_grids {
     background: rgba(255, 255, 255, 0.21);
-    padding: 2em 10em;
+    padding: 2em 1em;
     border-radius: 5px;
 	border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -709,7 +716,7 @@ h4.heading-con-w3ls {
     font-size: 18px;
 }
 .contact-info p a {
-    font-size: 17px;
+    font-size: 18px;
     color: #dcdbdb;
 }
 .contact-info h4 {
