@@ -98,6 +98,11 @@ header {
     z-index: 9;
     position: fixed;
     width: 100%;
+    top: 0px;
+}
+
+.container {
+    margin-top: 0px;
 }
 
 .rightdecoration {
