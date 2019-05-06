@@ -19,7 +19,7 @@
 <div class="banner" id="home" style="background-color:#7c1200">
 <!-- //banner -->	
 	<!-- header -->
-	<header>
+	<header id="fixed-header">
 		<div class="" style="background-color:#7c1200">
 			<img class="img-fluid md-5" src="images/top_deco.png" alt="" style="right:0px;top:0px">
 			<img class="rightdecoration" src="images/right_deco.png" alt="">
@@ -378,5 +378,15 @@
 </footer>
 <!-- //footer -->
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+	$(window).resize(function(){
+		fixedHeader();
+	});
+	fixedHeader();
+	function fixedHeader(){
+		$('.container').css('margin-top', $('#fixed-header').height() + 'px');
+	}
+</script>
 </body>
 </html>
