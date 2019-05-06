@@ -996,3 +996,12 @@ div#about {
 }
 }
 /*-- //responsive sizes --*/
+
+#paper a{
+    color: #6c757d!important;
+    margin-left: 10px;
+}
+
+#paper a:hover {
+    color: #e2b818!important;
+}
