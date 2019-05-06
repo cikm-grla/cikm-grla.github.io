@@ -907,4 +907,7 @@ h2.section-title {
     text-align: center;
   }
 
+  #main-content .main-panel {
+    top: 20%;
+  }
 }
