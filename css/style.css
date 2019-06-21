@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body a {
-	color: #fff!important;
+	color: #fff;
 	text-decoration: none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
