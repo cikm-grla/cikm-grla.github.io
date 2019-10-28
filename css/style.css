@@ -460,7 +460,7 @@ p.iner {
 }
 .our-services-text {
     overflow: hidden;
-    padding: 25px;
+    padding:10px;
     text-align: center;
 }
 .our-services-text h4 {
@@ -471,7 +471,7 @@ p.iner {
     margin-bottom: 8px;
     padding-bottom: 10px;
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 .our-services-text h4::before {	
     background: #445c6e none repeat scroll 0 0;
